@@ -1,6 +1,6 @@
 style.css
 body {
-	background-image: "images/sunset.png"
+	background-image: url("images/sunset.png")
 }
 
 h1 {
