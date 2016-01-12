@@ -3,12 +3,9 @@
 
 body {
 	color: rgb(255, 115, 0);
+	font-family: 'Droid Serif', serif;
 }
 
 h1 {
 	font-family: 'Lato', sans-serif;
-}
-
-p {
-	font-family: 'Droid Serif', serif;
 }
