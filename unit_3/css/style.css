@@ -1,8 +1,7 @@
 style.css
-body {
-	background-image: url("sunset.png");
-}
-
 h1 {
 	color: red
+	text-align: center;
+	font-family: Arial;
 }
+
