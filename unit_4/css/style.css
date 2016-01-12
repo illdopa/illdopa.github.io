@@ -10,7 +10,15 @@ h1 {
 	opacity: 1.0;
 }
 
-p, ul {
+p {
+	font-family: 'Droid Serif', serif;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+	opacity: 0.7;
+	font-family: 'Droid Serif', serif;
+}
+
+ul {
 	font-family: 'Droid Serif', serif;
 	font-weight: 700;
 	color: rgb(0, 0, 0);
