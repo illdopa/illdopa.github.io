@@ -12,6 +12,7 @@ header {
 
 nav {
 	background-color: #E8C66A;
+	text-align: right;
 }
 
 article {
@@ -20,4 +21,5 @@ article {
 
 footer {
 	background-color: #FF957E
+	text-align: right;
 }
