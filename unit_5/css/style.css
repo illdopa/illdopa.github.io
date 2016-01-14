@@ -1,0 +1,21 @@
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.wrapper {
+	background-color: red;
+}
+
+nav {
+	background-color: #E8C66A;
+}
+
+article {
+	background-color: #E89C6C;
+}
+
+footer {
+	background-color: #FF957E
+}
