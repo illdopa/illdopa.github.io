@@ -6,7 +6,8 @@ header {
 .wrapper {
 	background-color: gray;
 	width: 900px;
-	position: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 nav {
