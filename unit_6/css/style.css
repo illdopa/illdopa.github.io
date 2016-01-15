@@ -60,3 +60,21 @@ a:hover {
 	background-color: gray;
 	opacity: 0.3;
 }
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1 px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px solid black;
+	padding: 20px;
+}
