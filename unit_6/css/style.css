@@ -17,6 +17,12 @@ nav {
 	text-align: right;
 }
 
+nav a {
+	text-decoration: none;
+	margin: 1.8em;
+	display: inline-block;
+}
+
 article {
 	background-color: #E89C6C;
 }
