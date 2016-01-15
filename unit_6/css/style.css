@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+}
+
+.wrapper {
+	background-color: rgb(248, 248, 248);
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	background-color: #E8C66A;
+	text-align: right;
+}
+
+article {
+	background-color: #E89C6C;
+}
+
+footer {
+	background-color: #FF957E
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	opacity: 1.0;
+	text-align: center;
+}
+
+p {
+	font-family: 'Droid Serif', serif;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+	opacity: 0.6;
+	font-family: 'Droid Serif', serif;
+}
+
+a {
+	font-family: 'Droid Serif', serif;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+	opacity: 0.6;
+	font-family: 'Droid Serif', serif;
+}
