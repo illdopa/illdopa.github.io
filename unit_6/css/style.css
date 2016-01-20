@@ -31,6 +31,10 @@ article {
 	background-color: #F8F8F8;
 }
 
+article a {
+	text-decoration: none;
+}
+
 footer {
 	background-color: #F8F8F8
 }
