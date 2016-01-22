@@ -10,7 +10,7 @@ header {
 }
 
 .wrapper {
-	background-color: #e8e8F8;
+	background-color: #F8F8F8;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -25,6 +25,8 @@ nav a {
 	text-decoration: none;
 	margin: 1.8em;
 	display: inline-block;
+	font-size: 1.3em;
+	line-height: 1.4em;
 }
 
 article {
@@ -42,6 +44,8 @@ footer {
 
 footer a {
 	text-decoration: none;
+	font-size: 1.3em;
+	line-height: 1.4em;
 }
 
 h1 {
@@ -58,6 +62,8 @@ p {
 	color: rgb(0, 0, 0);
 	opacity: 0.6;
 	font-family: 'Droid Serif', serif;
+	font-size: 1.3em;
+	line-height: 1.4em;
 }
 
 a {
@@ -136,6 +142,21 @@ a:hover {
 	.wrapper {
 		width: 100%;
 		}
+
+	nav a {
+		font-size: 1em;
+		line-height: 1.2em;
+	}
+
+	footer a {
+		font-size: 1em;
+		line-height: 1.2em;
+	}
+
+	p {
+		font-size: 1em;
+		line-height: 1.2em;
+	}
 
 	h1 {
 		font-size: 1.7em;
