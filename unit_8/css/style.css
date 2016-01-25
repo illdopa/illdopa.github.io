@@ -75,14 +75,14 @@ a {
 	font-family: 'Droid Serif', serif;
 	font-weight: 700;
 	color: rgb(0, 0, 0);
-	opacity: 0.6;
+	opacity: 1.0);
 	font-family: 'Droid Serif', serif;
 
 }
 
 a:hover {
 	background-color: gray;
-	opacity: 0.3;
+	opacity: 0.6;
 }
 
 #two_column {
