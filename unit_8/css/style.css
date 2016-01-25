@@ -12,7 +12,7 @@ header {
 .wrapper {
 	background-color: #F8F8F8;
 	width: 80%;
-	max-width: 1200px;
+	max-width: 950px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -41,11 +41,14 @@ article a {
 }
 
 footer {
-	background-color: #F8F8F8
+	background-color: #F8F8F8;
+	text-align: center;
 }
 
 footer a {
 	text-decoration: none;
+	margin: 1.8em;
+	display: inline-block;
 	font-size: 1.3em;
 	line-height: 1.4em;
 }
@@ -89,22 +92,22 @@ a:hover {
 }
 
 .left {
-	background-color: #BD10E0;
+	background-color: none;
 	border: 0px solid black;
 	padding: 1%;
 	float: left;
 	width: 47%;
-	margin: 1.5% 1.5%;
+	margin: 0% 0%;
 
 }
 
 .right {
-	background-color: #E55B88;
+	background-color: none;
 	border: 0px solid black;
 	padding: 1%;
 	float: right;
 	width: 47%;
-	margin: 1.5% 1.5%;
+	margin: 0% 0%;
 }
 
 .clearfix:after {
@@ -117,9 +120,9 @@ a:hover {
 }
 
 .img {
-	width: 300px;
-	height: 300px;
-	background-color: white;
+	width: 80%;
+	height: 80%;
+	
 }
 
 @media only screen and (max-width: 900px) {
@@ -140,6 +143,8 @@ a:hover {
 		padding: 1%;
 		}
 	}
+
+
 
 @media only screen and (max-width: 480px) {
 
