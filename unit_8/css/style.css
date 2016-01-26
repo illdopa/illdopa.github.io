@@ -30,6 +30,8 @@ nav a {
 	line-height: 1.4em;
 }
 
+
+
 article {
 	background-color: #F8F8F8;
 	width: 100%;
@@ -61,7 +63,7 @@ h1 {
 	text-align: center;
 }
 
-p {
+h3 {
 	font-family: 'Droid Serif', serif;
 	font-weight: 700;
 	color: rgb(0, 0, 0);
@@ -69,6 +71,24 @@ p {
 	font-family: 'Droid Serif', serif;
 	font-size: 1.3em;
 	line-height: 1.4em;
+	position: relative;
+	top: 0px;
+	left: 20px;
+	width: 100%;
+
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: white;
+	opacity: 1.0;
+	font-size: 1.3em;
+	line-height: 1.4em;
+	position: relative;
+	top: 80px;
+	left: 20px;
+	width: 100%;
 }
 
 a {
@@ -80,9 +100,10 @@ a {
 
 }
 
+
 a:hover {
 	background-color: gray;
-	opacity: 0.6;
+	opacity: 0.8;
 }
 
 #two_column {
@@ -120,8 +141,8 @@ a:hover {
 }
 
 .img {
-	width: 80%;
-	height: 80%;
+	position: relative;
+	width: 100%;
 	
 }
 
@@ -133,6 +154,8 @@ a:hover {
 		display: block;
 		margin: 1.5%;
 		padding: 1%;
+		margin-left: auto;
+		margin-right: auto;
 		} 
 
 	.right {
@@ -162,7 +185,7 @@ a:hover {
 		line-height: 1.2em;
 	}
 
-	p {
+	p, h3 {
 		font-size: 1em;
 		line-height: 1.2em;
 	}
