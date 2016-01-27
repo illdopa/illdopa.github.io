@@ -37,6 +37,7 @@ article a {
 }
 footer {
 	text-align: center;
+	padding: 1.75em;
 }
 h1 {
 	font-size: 3em;
@@ -53,9 +54,12 @@ p {
 	line-height: 1.5;
 }
 a {
-	font-family: 'Droid Serif', serif;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	color: rgb(0, 0, 0);
+	text-decoration: none;
+
 }
 a:hover {
 	opacity: 0.8;
@@ -76,6 +80,7 @@ a:hover {
 	position:absolute;
 	top:3em;
 	left:3em;
+	width: 250px;
 }
 #two_column img {
 	width: 100%;
