@@ -52,6 +52,7 @@ h2 {
 }
 p {
 	line-height: 1.5;
+	color: rgba(0, 0, 0, .5);
 }
 a {
 	font-size: 1.2em;
@@ -64,6 +65,7 @@ a {
 a:hover {
 	opacity: 0.8;
 }
+
 #two_column > * {
 	float:left;
 	padding:2em;
@@ -81,6 +83,7 @@ a:hover {
 	top:3em;
 	left:3em;
 	width: 250px;
+	color: rgba(255, 255, 255, 255);
 }
 #two_column img {
 	width: 100%;
@@ -97,7 +100,16 @@ a:hover {
 
 @media only screen and (max-width: 900px) {
 
-	.left {
+	h1 {
+		font-size: 2em;
+	}
+
+	p, a {
+		font-size: 1em;
+	}
+
+	/*.two_column {
+		font-size: .8em
 		width: 100%;
 		float: none;
 		display: block;
@@ -105,17 +117,7 @@ a:hover {
 		padding: 1%;
 		margin-left: auto;
 		margin-right: auto;
-		} 
-
-	.right {
-		width: 100%;
-		float: none;
-		display: block;
-		margin: 1.5%;
-		padding: 1%;
-		}
-	}
-
+		}*/
 
 
 @media only screen and (max-width: 480px) {
