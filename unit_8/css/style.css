@@ -12,8 +12,9 @@ body {
 }
 header {
 	background-color: #F8F8F8;
-	border: 1px #F8F8F8 solid;
+	border: 1px #F8F8F8 solid;	
 }
+
 
 .wrapper {
 	background-color: #F8F8F8;
@@ -32,24 +33,23 @@ nav a {
 	font-size: 1.25em;
 	line-height: 1.5;
 }
-article a {
-	text-decoration: none;
-}
+
+
 footer {
 	text-align: center;
 	padding: 1.75em;
+}
+
+footer a {
+	font-size: 1.25em;
 }
 h1 {
 	font-size: 3em;
 	font-weight: 700;
 	text-align: center;
 }
-h2 {
-	font-family: 'Droid Serif', serif;
-	font-weight: 700;
-	color: rgba(0, 0, 0,0.6);
-	font-size: 1.25em;
-}
+
+
 p {
 	line-height: 1.5;
 	color: rgba(0, 0, 0, .5);
@@ -58,13 +58,14 @@ a {
 	font-size: 1.2em;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	color: rgb(0, 0, 0);
+	color: rgba(0, 0, 0, .6);
 	text-decoration: none;
 
 }
 a:hover {
 	opacity: 0.8;
 }
+
 
 #two_column > * {
 	float:left;
@@ -125,6 +126,12 @@ a:hover {
 		padding:2em;
 		width:100%;
 	}
+	header nav {
+		text-align: center;
+	}
+
+
+	}
 	h1 {
 		max-width: 300px;
 		margin: auto;
@@ -136,6 +143,10 @@ a:hover {
 		#two_column > a > p {
 		font-size: 1em;
 		width:200px;
+	}
+
+	header nav {
+		text-align: center;
 	}
 }
 
