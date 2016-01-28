@@ -132,30 +132,11 @@ a:hover {
 
 }	
 
-/*@media only screen and (max-width: 480px) {
-
-	.wrapper {
-		width: 100%;
-		}
-
-	nav a {
+@media only screen and (max-width: 480px) {
+		#two_column > a > p {
 		font-size: 1em;
-		line-height: 1.2em;
+		width:200px;
 	}
+}
 
-	footer a {
-		font-size: 1em;
-		line-height: 1.2em;
-	}
 
-	p, h3 {
-		font-size: 1em;
-		line-height: 1.2em;
-	}
-
-	h1 {
-		font-size: 1.7em;
-	}
-
-	
-}	*/
