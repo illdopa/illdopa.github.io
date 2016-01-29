@@ -1,10 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
-
 *{
 	box-sizing:border-box;
+	margin:0;
+	padding:0;
 }
-
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size:18px;
+}
 
 header {
 	background-color: #F8F8F8;
@@ -17,10 +22,10 @@ header h4 {
 
 .wrapper {
 	background-color: #F8F8F8;
-	width: 80%;
-	max-width: 950px;
-	margin-left: auto;
-	margin-right: auto;
+	max-width: 60em;
+	margin: auto;
+
+
 }
 
 nav {
@@ -35,6 +40,15 @@ nav a {
 	font-size: 1.3em;
 	line-height: 1.4em;
 }
+
+footer {
+	text-align: center;
+	padding: 1.75em;
+}
+
+footer a {
+	font-size: 1.25em;
+	}
 
 h1 {
 	font-size: 3em;
@@ -57,34 +71,53 @@ img {
 
 #intro {
 	padding: 40px 20px;
+	border-bottom: 1px dotted gray;
 
 }
 
-#intro_image {
-	width: 150px;
+#intro img {
+	width: 70%;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+
+
 }
 
 #one {
-	padding: 10px;
+	padding: 20px;
+	border-bottom: 1px dotted gray;
 }
 
 #one img {
-	padding: 10px;
+	padding: 20px;
 }
 
 #two {
-	padding: 10px;
+	padding: 20px;
+	border-bottom: 1px dotted gray;
 }
 
 #two img {
-	padding: 10px;
+	padding: 20px;
 }
 
 #three {
-	padding: 10px;
+	padding: 20px;
+	border-bottom: 1px dotted gray;
+	
 }
 
 #three img {
-	padding: 10px;
+	padding: 20px;
+}
+
+#four {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px dotted gray;
 }
 
