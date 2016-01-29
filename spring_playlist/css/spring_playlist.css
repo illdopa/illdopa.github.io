@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+
+*{
+	box-sizing:border-box;
+}
+
+
+header {
+	background-color: #F8F8F8;
+	border: 1px #F8F8F8 solid;
+}
+
+header h4 {
+	text-align: center;
+}
+
+.wrapper {
+	background-color: #F8F8F8;
+	width: 80%;
+	max-width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	background-color: #F8F8F8;
+	text-align: right;
+}
+
+nav a {
+	text-decoration: none;
+	margin: 1.8em;
+	display: inline-block;
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 700;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	float: center;
+}
+
+
+
+.caption {
+	width: 250px;
+	display: inline-block;
+	float: right;
+}
+
+#intro {
+	padding: 40px 20px;
+
+}
+
+#intro_image {
+	width: 150px;
+}
+
+#one {
+	padding: 10px;
+}
+
+#one img {
+	padding: 10px;
+}
+
+#two {
+	padding: 10px;
+}
+
+#two img {
+	padding: 10px;
+}
+
+#three {
+	padding: 10px;
+}
+
+#three img {
+	padding: 10px;
+}
+
