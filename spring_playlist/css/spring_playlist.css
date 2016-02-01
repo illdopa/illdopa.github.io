@@ -43,6 +43,7 @@ nav a {
 	display: inline-block;
 	font-size: 1.25em;
 	line-height: 1.5;
+	color: rgba(0, 0, 0, .6);
 }
 
 footer {
@@ -52,6 +53,8 @@ footer {
 
 footer a {
 	font-size: 1.25em;
+	color: rgba(0, 0, 0, .6);
+	text-decoration: none;
 	}
 
 h1 {
