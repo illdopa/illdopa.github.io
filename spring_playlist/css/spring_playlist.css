@@ -107,8 +107,8 @@ a:hover {
 
 #intro img {
 	width: 70%;
-	padding-top: 40px;
-	padding-bottom: 20px;
+	padding-top: 0px;
+	padding-bottom: 40px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -156,10 +156,43 @@ a:hover {
 	border-bottom: 1px dotted gray;
 }
 
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1040px) {
 	.caption {
 		float: none;
+	}
+
+		#one img {
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+}	
+
+
+@media only screen and (max-width: 480px) {
+
+	header nav {
+		text-align: center;
+	}
+
+	.caption {
+		float: none;
+	}
+
+	h1 {
+		font-size: 1.75em;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	h4 {
+		font-size: .75em;
 	}
 
 	#one img {
