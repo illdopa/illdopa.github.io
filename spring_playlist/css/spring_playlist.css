@@ -157,7 +157,37 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 400px) {
+	.caption {
+		float: none;
+	}
 
+	#one img {
+	width: 70%;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	}
+
+	#two img {
+	width: 70%;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;		
+	}
+
+	#three img {
+	width: 70%;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;		
+	}
 }
 
