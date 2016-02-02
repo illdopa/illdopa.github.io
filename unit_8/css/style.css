@@ -258,6 +258,8 @@ img {
 	#description img {
 		float: none;
 		min-width: 200px;
+		padding-left: auto;
+		padding-right: auto;
 
 	}
 
