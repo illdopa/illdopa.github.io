@@ -33,7 +33,7 @@ header h4 {
 }
 
 nav {
-	background-color: #F8F8F8;
+	background-color: #e8e8e8;
 	text-align: right;
 }
 
@@ -61,7 +61,14 @@ p {
 }
 
 
-
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;	
+}
 
 
 

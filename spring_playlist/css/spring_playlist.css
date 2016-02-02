@@ -33,7 +33,7 @@ header h4 {
 }
 
 nav {
-	background-color: #F8F8F8;
+	background-color: #e8e8e8;
 	text-align: right;
 }
 
@@ -61,6 +61,7 @@ h1 {
 	font-size: 3em;
 	font-weight: 700;
 	text-align: center;
+	padding-top: .6em;
 }
 
 
@@ -95,18 +96,6 @@ img {
 	margin-top: 20px;
 }
 
-/*.clearfix:after {
-	 visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: "";
-     clear: both;
-     height: 0;
-}*/
-
-/*.clearfix { display: inline-block; }*/
-
-
 
 #intro {
 	padding: 40px 35px;
@@ -137,6 +126,8 @@ img {
 	padding: 30px;
 }
 
+
+
 #two {
 	padding: 30px;
 	border-bottom: 1px dotted gray;
@@ -162,4 +153,8 @@ img {
 	border-bottom: 1px dotted gray;
 }
 
+
+@media only screen and (max-width: 1040px) {
+
+}
 

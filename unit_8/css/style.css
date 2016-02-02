@@ -23,6 +23,7 @@ header {
 }
 
 nav {
+	background-color: #e8e8e8;
 	text-align: right;
 }
 
@@ -47,6 +48,7 @@ h1 {
 	font-size: 3em;
 	font-weight: 700;
 	text-align: center;
+	padding-top: .6em;
 }
 
 
