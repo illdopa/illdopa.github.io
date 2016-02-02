@@ -81,6 +81,9 @@ img {
 	float: center;
 }
 
+a:hover {
+	opacity: 0.8;
+}
 
 
 .caption {

@@ -46,12 +46,30 @@ nav a {
 	color: rgba(0, 0, 0, .6);
 }
 
-p {
+
+a:hover {
+	opacity: 0.8;
+}
+
+#description p {
 	line-height: 1.5;
 	color: rgba(0, 0, 0, .5);
 	padding-left: 30px;
 	padding-right: 30px;
 	margin-top: 20px;
+	width: 35em;
+}
+
+#description h3 {
+	line-height: 1.5;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 20px;
+	width: 35em;
+}
+
+#description {
+	padding-top: 1.5em;
 }
 
 #description img {
