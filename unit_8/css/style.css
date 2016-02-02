@@ -110,8 +110,7 @@ img {
 	padding-left: 2em;
 	padding-right: 2em;
 	margin-top: 20px;
-	width: 35em;
-
+	max-width: 650px;
 }
 
 #description h3 {
@@ -119,7 +118,6 @@ img {
 	padding-left: 30px;
 	padding-right: 30px;
 	margin-top: 20px;
-	width: 35em;
 }
 
 #description {
@@ -255,6 +253,12 @@ img {
 	h1 {
 		max-width: 400px;
 		margin: auto;
+	}
+
+	#description img {
+		float: none;
+		min-width: 200px;
+
 	}
 
 }	
