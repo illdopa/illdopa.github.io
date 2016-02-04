@@ -66,6 +66,14 @@ p {
 	line-height: 1.5;
 	color: rgba(0, 0, 0, .5);
 }
+
+ul, ol {
+	padding-left: 20px;
+	color: rgba(0, 0, 0, .5);
+	line-height: 1.5;
+	margin-bottom: 1em
+}
+
 a {
 	font-size: 1.2em;
 	font-family: 'Lato', sans-serif;
@@ -167,7 +175,7 @@ img {
 }
 
 #intro p {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 #one {
