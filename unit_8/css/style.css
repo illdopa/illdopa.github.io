@@ -174,14 +174,23 @@ img {
 	padding: 30px;
 	border-bottom: 1px dotted gray;
 	display: block;
+}
 
+
+#watch_one img {
+	width: 60%;
+}
+
+#watch_one {
+	padding: 30px;
+	border-bottom: 1px dotted gray;
+	display: block;
 }
 
 #one img {
 	width: 20%;
 	padding: 10px;
 }
-
 
 
 #two {
