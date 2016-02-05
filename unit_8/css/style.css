@@ -178,6 +178,9 @@ img {
 	margin-bottom: 1em;
 }
 
+
+
+
 #one {
 	padding: 30px;
 	border-bottom: 1px dotted gray;
@@ -192,7 +195,7 @@ img {
 #watch_one {
 	padding: 30px;
 	border-bottom: 1px dotted gray;
-	display: block;
+/*	display: block;*/
 }
 
 #one img {
@@ -240,6 +243,7 @@ img {
 	.caption {
 		float: none;
 		width: 100%;
+		margin-top: 1.5em;
 	}
 	#one img {
 		margin-left: auto;
