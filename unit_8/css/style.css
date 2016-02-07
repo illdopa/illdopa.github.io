@@ -38,6 +38,8 @@ nav a {
 	color: rgba(0, 0, 0, .6);
 }
 
+	 }
+
 
 footer {
 	text-align: center;
@@ -80,6 +82,11 @@ a {
 	font-weight: 700;
 	color: rgba(0, 0, 0, .6);
 	text-decoration: none;
+}
+
+#text_right {
+	text-align: left;
+
 }
 
 .watch {
@@ -157,7 +164,7 @@ img {
 	margin: 30px;
 }
 .caption {
-	width: 350px;
+	width: 38%;
 	display: inline-block;
 	float: right;
 	line-height: 1em;
@@ -251,7 +258,7 @@ img {
 	clear: both;
 	height: 0;
 }
-@media only screen and (max-width: 1040px) {
+/*@media only screen and (max-width: 1040px) {
 	.caption {
 		float: none;
 		width: 100%;
@@ -262,7 +269,7 @@ img {
 		margin-right: auto;
 	}
 
-}
+}*/
 @media only screen and (max-width: 900px) {
 
 	h1 {
@@ -284,7 +291,9 @@ img {
 		margin-right: auto;
 	}
 
-
+	.caption.spring_playlist {
+		font-size: 0.75em;
+	}
 
 }
 @media only screen and (max-width: 700px) {
@@ -297,7 +306,10 @@ img {
 		text-align: center;
 	}
 
+.caption p {
+	font-size: .75em;
 
+}
 	
 	h1 {
 		max-width: 400px;
@@ -313,19 +325,30 @@ img {
 	}
 
 	#one img, #two img, #three img {
-	width: 50%;
+	width: 19%;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	display: block;
+	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
 
 	}
 
-	
-
 }	
+@media only screen and (max-width: 560px) {
+.caption.spring_playlist {
+	float: none;
+	display: block;
+	width: 100%;
+	font-size: 1em;
+}
 
+#one img, #two img, #three img {
+	width: 32%
+}
+
+
+}
 @media only screen and (max-width: 480px) {
 		#two_column > a > p {
 		font-size: 1em;
@@ -333,6 +356,14 @@ img {
 
 	}
 	
+
+.caption
+{
+	width: 72%;
+	display: block;
+	float: none;
+	margin: auto;
+}
 
 	header nav {
 		text-align: center;
