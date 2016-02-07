@@ -25,7 +25,7 @@ header h4 {
 }
 
 nav {
-	background-color: #e8e8e8;
+	background-color: #F8F8F8;
 	text-align: right;
 }
 
@@ -346,6 +346,7 @@ img {
 #one img, #two img, #three img {
 	width: 32%
 }
+
 
 
 }
