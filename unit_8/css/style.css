@@ -394,6 +394,7 @@ img {
 
 	h1{
 		font-size: 1.75em;
+		max-width: 85%;
 	}
 	h2 {
 		font-size: 1em;
@@ -405,6 +406,7 @@ img {
 
 	h4 {
 		font-size: .75em;
+		max-width: 85%;
 	}
 	#description {
 		width: 100%;
