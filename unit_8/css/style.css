@@ -62,6 +62,8 @@ h1 {
 h4 {
 	line-height: 1.5;
 	color: rgba(0, 0, 0, .5);
+	text-align: center;
+	padding: 1.75em;
 }
 
 p {
@@ -407,7 +409,7 @@ img {
 	h4 {
 		font-size: .75em;
 	}
-	
+
 	#description {
 		width: 100%;
 		display: block;
