@@ -379,7 +379,9 @@ img {
 	padding: 1em;
 }
 
-h3 {
+
+
+.caption h3 {
 	text-align: center;
 }
 
