@@ -13,7 +13,19 @@
 				<a href="http://illdopa.github.io/unit_8/index.html">Projects</a>
 				<a href="http://illdopa.github.io/unit_8/about.html">About</a>
 			</nav>
-			<h1 id="slogan">Gabriel Wurzel Design</h1>
+	<button id="toggle_nav"> 
+	        <span class="toggle-menu-bar"></span>
+	        <span class="toggle-menu-bar"></span>
+	        <span class="toggle-menu-bar"></span>
+	  </button>
+	<div>
+		<ul> 
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">About</a></li>   
+		 </ul>
+	</div>
+	<h1 id="slogan">Gabriel Wurzel Design</h1>
+	
 		</header>
 		<section id="two_column" class="clearfix">
 			<section> 
@@ -42,4 +54,13 @@
 		</footer>
 	</div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+	    $("button").click(function(){
+	        $("ul").slideToggle( ".01s" );
+	    });
+	});
+	</script>
 </html>
