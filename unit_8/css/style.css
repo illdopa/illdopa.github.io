@@ -24,10 +24,15 @@ header h4 {
 	margin:auto;
 }
 
+#logo {
+	float: left;
+}
+
 nav {
 	background-color: #F8F8F8;
 	text-align: right;
 }
+
 
 nav a {
 	text-decoration: none;
@@ -98,7 +103,7 @@ a {
 
 
 #newsgram_images {
-	
+
 }
 
 #cleared {
@@ -160,14 +165,13 @@ img {
 	margin: 30px;
 }
 
-#process {
-	padding-left: 2em;
-	line-height: 1.5;
-}	
 
 #process img {
 	padding: 2em;
-	width: 60%;
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .caption {
