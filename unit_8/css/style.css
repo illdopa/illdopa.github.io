@@ -168,11 +168,8 @@ img {
 
 
 #process_image {
-	padding: 2em;
 	width: 75%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	padding: 1em;
 }
 
 .caption {
@@ -335,9 +332,9 @@ ul {
 		padding:2em;
 		width:100%;
 	}
-	header nav {
+/*	header nav {
 		text-align: center;
-	}
+	}*/
 
 .caption p, ol {
 	font-size: .75em;
@@ -350,11 +347,10 @@ ul {
 	}
 
 	#description img {
-		float: none;
+		float: right;
 		min-width: 200px;
 		padding-left: auto;
-		padding-right: auto;s
-
+		padding-right: auto;
 	}
 
 	#one img, #two img, #three img {
@@ -367,7 +363,9 @@ ul {
 
 	}
 
-
+#process_image {
+	width: 100%;
+}
 
 }	
 @media only screen and (max-width: 560px) {
@@ -468,7 +466,9 @@ ul {
 		margin-right: auto;
 	}
 
-
+#description img {
+		display: block;
+	}
 
 	#one img, #two img, #three img {
 	width: 70%;
