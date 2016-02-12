@@ -408,11 +408,16 @@ ul {
 
 	}
 	
+	#logo {
+		display: none;
+		
+	}
 
-		#toggle_nav {
-		display: block;
-		float: right;
-		margin: 1.5em;
+
+	#toggle_nav {
+	display: block;
+	float: right;
+	margin: 1.5em;
 	}	
 
 	#desktop_nav {

@@ -10,9 +10,22 @@
 		<header>
 			<nav>
 				<a id="logo" href="http://illdopa.github.io/unit_8/index.html"><img src="images/logo.png"></a>
-				<a href="http://illdopa.github.io/unit_8/index.html">Projects</a>
-				<a href="http://illdopa.github.io/unit_8/about.html">About</a>
+				<div id="desktop_nav">
+					<a href="http://illdopa.github.io/unit_8/index.html">Projects</a>
+					<a href="http://illdopa.github.io/unit_8/about.html">About</a>
+				</div>
 			</nav>
+	<button id="toggle_nav"> 
+	        <span class="toggle-menu-bar"></span>
+	        <span class="toggle-menu-bar"></span>
+	        <span class="toggle-menu-bar"></span>
+	</button>
+	<div>
+		<ul> 
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">About</a></li>   
+		 </ul>
+	</div>
 			<h1 id="slogan">Spring Playlist Design</h1>
 			<h4>Concept, User Testing, Wireframes, Prototypes, UI Design</h4>
 		</header>
@@ -68,4 +81,13 @@
 		</footer>
 </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+	    $("button").click(function(){
+	        $("ul").slideToggle( ".01s" );
+	    });
+	});
+	</script>
 </html>
