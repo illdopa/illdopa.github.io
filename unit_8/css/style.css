@@ -309,6 +309,11 @@ ul {
 	margin-left: .75em;
 }
 
+#next { 
+	padding: .75em;
+	text-align: center;
+	border-bottom: 1px dotted gray;
+}
 
 
 @media only screen and (max-width: 900px) {
